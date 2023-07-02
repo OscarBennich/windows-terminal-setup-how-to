@@ -64,3 +64,17 @@ PowerShell will look for a profile file to initialize each time you open the ter
 
 ![image](https://github.com/OscarBennich/windows-terminal-setup-how-to/assets/26872957/eb7ebc2a-9739-4181-8ea1-f4a915025f87)
 - These settings will be automatically initalized whenever you start the terminal from now on
+
+## Add an Oh My Posh theme
+- Open up the PowerShell profile file by running command `code $PROFILE` in your terminal
+- Replace the command you just added with this (adding the `--config` part):
+  - `oh-my-posh init pwsh --config "$env:POSH_THEMES_PATH/jandedobbeleer.omp.json" | Invoke-Expression`
+- If you save and refresh your terminal, you should see that the theme changed
+- You can now go to the [theme page](https://ohmyposh.dev/docs/themes) on the Oh My Posh website and look for whatever theme you want to try
+- When you've found one, take the name and replace the `"jandedobbeleer"` part of the expression above, save, and refresh the terminal
+- For example, I like the ["amro"](https://ohmyposh.dev/docs/themes#amro) theme, so the full expression would be:
+  - `oh-my-posh init pwsh --config "$env:POSH_THEMES_PATH/amro.omp.json" | Invoke-Expression`
+- My terminal now looks like this:
+
+![image](https://github.com/OscarBennich/windows-terminal-setup-how-to/assets/26872957/5a0e76a0-4f62-4ad1-8658-9c0ad684305c)
+- It is also possible to [adjust themes](https://ohmyposh.dev/docs/installation/customize#adjust-a-theme) if you want to read more about that.
