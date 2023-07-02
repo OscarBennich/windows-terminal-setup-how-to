@@ -80,12 +80,13 @@ PowerShell will look for a profile file to initialize each time you open the ter
 - It is also possible to [adjust themes](https://ohmyposh.dev/docs/installation/customize#adjust-a-theme) if you want to read more about that.
 
 ## Customize PowerShell
-### Add the [`Terminal-Icons`](https://www.powershellgallery.com/packages/Terminal-Icons) package to PowerShell
-- Open your temrinal and run the command `Install-Module -Name Terminal-Icons`
+### Add custom icons to the terminal
+- Add the [`Terminal-Icons`](https://www.powershellgallery.com/packages/Terminal-Icons) package
+  - Open your terminal and run the command `Install-Module -Name Terminal-Icons`
 - Go to your profile file (run the command `code $PROFILE`)
 - Under the `oh-my-posh init` line, add this code:
   - `Import-Module -Name Terminal-Icons`
-- Refresh your terminal
+- Save and refresh your terminal
 - You should now have custom icons in your terminal
   - Before:
     
@@ -93,3 +94,23 @@ PowerShell will look for a profile file to initialize each time you open the ter
   - After:
 
 ![image](https://github.com/OscarBennich/windows-terminal-setup-how-to/assets/26872957/a47dc53f-ed4f-4d93-9fac-55be6e36c59b)
+
+### Add auto-complete and history functionality
+- Add the [`PSReadLine`](https://www.powershellgallery.com/packages/PSReadLine) package
+  - Open your terminal and run the command `Install-Module -Name PSReadLine`
+- Go to your profile file (run the command `code $PROFILE`)
+- Under the `Import-Module` line, add this code:
+  - `Import-Module -Name PSReadLine`
+
+- Add these lines under that:
+
+```ps1
+Set-PSReadLineOption -PredictionSource History
+Set-PSReadLineOption -PredictionViewStyle ListView
+Set-PSReadLineOption -EditMode Windows
+```
+
+- Save and refresh your terminal
+- You should now have auto-complete and see a list of previous commands you've run in the terminal
+
+![image](https://github.com/OscarBennich/windows-terminal-setup-how-to/assets/26872957/2dedd937-79d4-4e0b-995a-52bb5705d606)
