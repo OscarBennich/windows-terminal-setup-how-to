@@ -78,3 +78,18 @@ PowerShell will look for a profile file to initialize each time you open the ter
 
 ![image](https://github.com/OscarBennich/windows-terminal-setup-how-to/assets/26872957/5a0e76a0-4f62-4ad1-8658-9c0ad684305c)
 - It is also possible to [adjust themes](https://ohmyposh.dev/docs/installation/customize#adjust-a-theme) if you want to read more about that.
+
+## Customize PowerShell
+### Add the [`Terminal-Icons`](https://www.powershellgallery.com/packages/Terminal-Icons) package to PowerShell
+- Open your temrinal and run the command `Install-Module -Name Terminal-Icons`
+- Go to your profile file (run the command `code $PROFILE`)
+- Under the `oh-my-posh init` line, add this code:
+  - `Import-Module -Name Terminal-Icons`
+- Refresh your terminal
+- You should now have custom icons in your terminal
+  - Before:
+    
+![image](https://github.com/OscarBennich/windows-terminal-setup-how-to/assets/26872957/ee0b27c3-4217-4055-9026-87ffc424aac3)
+  - After:
+
+![image](https://github.com/OscarBennich/windows-terminal-setup-how-to/assets/26872957/a47dc53f-ed4f-4d93-9fac-55be6e36c59b)
