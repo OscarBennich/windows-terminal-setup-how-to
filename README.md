@@ -3,7 +3,7 @@
 
 These instructions are based on [this video](https://www.youtube.com/watch?v=TY_YKz1uvws).
 ## Prerequisites
-- Go to the Microsoft Store
+- Go to the Microsoft Store (search for "store" in Windows)
   
 ### Install `Windows Terminal`
 - Search for "Windows Terminal"
@@ -45,7 +45,7 @@ These instructions are based on [this video](https://www.youtube.com/watch?v=TY_
 - Go to the [Nerd Fonts website](https://www.nerdfonts.com/font-downloads)
 - Download the [Hack Nerd font](https://github.com/ryanoasis/nerd-fonts/releases/download/v3.0.2/Hack.zip)
 - Unzip the folder
-- Open up the "Font settings" in Windows (search for fonts)
+- Open up the "Font settings" (search for "fonts" in Windows)
 - Drag and drop all the `.ttf` files from the unzipped hack folder into the "Add fonts" square:
 
   ![image](https://github.com/OscarBennich/windows-terminal-setup-how-to/assets/26872957/e3ebfe1f-550e-43e4-8cba-5ef587be4677)
