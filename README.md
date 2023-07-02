@@ -37,5 +37,12 @@ Video version: https://www.youtube.com/watch?v=TY_YKz1uvws
 - Unzip the folder
 - Open up the "Font settings" in Windows (search for fonts)
 - Drag and drop all the `.ttf` files from the unzipped hack folder into the "Add fonts" square:
-
-![image](https://github.com/OscarBennich/windows-terminal-setup-how-to/assets/26872957/e3ebfe1f-550e-43e4-8cba-5ef587be4677)
+  
+  ![image](https://github.com/OscarBennich/windows-terminal-setup-how-to/assets/26872957/e3ebfe1f-550e-43e4-8cba-5ef587be4677)
+- Open up `Windows Terminal`
+- Go to Settings
+- Go to Profiles > PowerShell
+- Go to Additional Settings > Appearance
+- Go to Font face
+- Choose `Hack Nerd Font`
+- Save
