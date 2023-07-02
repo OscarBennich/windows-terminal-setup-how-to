@@ -102,10 +102,11 @@ PowerShell will look for a profile file to initialize each time you open the ter
   - `Import-Module -Name Terminal-Icons`
 - Save and refresh your terminal
 - You should now have custom icons in your terminal
-  - Before:
-    
+- Before:
+
 ![image](https://github.com/OscarBennich/windows-terminal-setup-how-to/assets/26872957/ee0b27c3-4217-4055-9026-87ffc424aac3)
-  - After:
+
+- After:
 
 ![image](https://github.com/OscarBennich/windows-terminal-setup-how-to/assets/26872957/a47dc53f-ed4f-4d93-9fac-55be6e36c59b)
 
