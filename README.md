@@ -1,4 +1,4 @@
-# HOW TO: Set up a custom Windows Terminal
+# HOW TO: Customize Windows Terminal w/ Oh My Posh
 - Oh My Posh theme
 - Custom font
 - Custom icons
