@@ -55,6 +55,15 @@ These instructions are based on this video: https://www.youtube.com/watch?v=TY_Y
 - Go to Font face
 - Choose `Hack Nerd Font`, save
 
+### Setting the terminal font in VS Code
+- Open up VS Code
+- Go to Settings
+- Go to Features > Terminal
+- Scroll down to `Terminal › Integrated: Font Family`
+- Write "Hack Nerd Font", save
+
+![image](https://github.com/OscarBennich/windows-terminal-setup-how-to/assets/26872957/9a6d9ae2-33c1-493b-9824-aee05a8bd6b0)
+ 
 ## Create a PowerShell profile file
 PowerShell will look for a profile file to initialize each time you open the terminal in the path that gets printed if you run his command: `echo $profile`. This file does not exist by default, so we need to create it.
 
@@ -99,7 +108,7 @@ PowerShell will look for a profile file to initialize each time you open the ter
 
 ### Add auto-complete and history functionality
 - Add the [`PSReadLine`](https://www.powershellgallery.com/packages/PSReadLine) package
-  - Open your terminal and run the command `Install-Module -Name PSReadLine`
+  - Open your terminal and run the command `Install-Module -Name PSReadLine -AllowPrerelease -Force`
 - Go to your profile file (run the command `code $PROFILE`)
 - Under the `Import-Module` line, add this code:
   - `Import-Module -Name PSReadLine`
@@ -115,4 +124,4 @@ Set-PSReadLineOption -EditMode Windows
 - Save and refresh your terminal
 - You should now have auto-complete and see a list of previous commands you've run in the terminal
 
-![image](https://github.com/OscarBennich/windows-terminal-setup-how-to/assets/26872957/2dedd937-79d4-4e0b-995a-52bb5705d606)
+![image](https://github.com/OscarBennich/windows-terminal-setup-how-to/assets/26872957/4d6092cf-a269-4f37-9553-f1fb20f42f82)
