@@ -1,4 +1,9 @@
-# How to set up a custom Windows Terminal (Oh My Posh theme, custom font, custom icons, auto-complete)
+# HOW TO: Set up a custom Windows Terminal
+- Oh My Posh theme
+- Custom font
+- Custom icons
+- Auto-complete & command history
+
 ![image](https://github.com/OscarBennich/windows-terminal-setup-how-to/assets/26872957/9dd538f0-95de-4ffa-a91b-f66fa9238b60)
 
 These instructions are based on [this video](https://www.youtube.com/watch?v=TY_YKz1uvws) but slightly modified and updated.
