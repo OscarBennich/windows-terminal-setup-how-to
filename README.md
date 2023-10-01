@@ -159,4 +159,14 @@ Update-Module -Name Terminal-Icons
 Get-InstalledModule
 ```
 
-#### 5.3.1 - 
+#### 5.3.1 - Troubleshooting when updating packages
+- Even though the process above 👆 should work for updating packages, you might have to do some troubleshooting if it does not:
+  
+1. If you are not able to run the command in WT, then try running it in the normal "Command prompt" instead (`cmd.exe`), potentially starting the program as an administrator if you get any errors related to that
+3. If you have updated the package but running the `Get-InstalledModule` only returns the previous un-updated package version, try this:
+   - Go to the folder where PowerShell profile is (`echo $profile`)
+   - Go into the "Modules" folder
+   - Go into the folder for the package you are trying to update, there should be multiple folders in here, one for each version
+   - **Delete the previous version(s)**
+   - Reload the PS profile
+   - Check again using `Get-InstalledModule`, the updated version should be the one that is being used now
