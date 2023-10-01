@@ -148,3 +148,15 @@ e.g:
 Update-Module -Name PSReadLine
 Update-Module -Name Terminal-Icons
 ```
+
+- Then press "A" to check the "Yes to All" option if you get this warning:
+
+![image](https://github.com/OscarBennich/windows-terminal-setup-how-to/assets/26872957/ad413922-c58f-41e8-8dd8-45d79234a2a8)
+
+- You can check what versions of packages you are using by running this command:
+
+```ps1
+Get-InstalledModule
+```
+
+#### 5.3.1 - 
