@@ -134,3 +134,17 @@ Set-PSReadLineOption -EditMode Windows
 - You should now have auto-complete and see a list of previous commands you've run in the terminal
 
 ![image](https://github.com/OscarBennich/windows-terminal-setup-how-to/assets/26872957/4d6092cf-a269-4f37-9553-f1fb20f42f82)
+
+### 5.3 - Updating packages
+- To update the version of your installed packages, run this command:
+
+```ps1
+Update-Module -Name {NAME OF PACKAGE}
+```
+
+e.g: 
+
+```ps1
+Update-Module -Name PSReadLine
+Update-Module -Name Terminal-Icons
+```
