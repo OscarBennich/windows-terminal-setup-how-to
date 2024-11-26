@@ -27,6 +27,13 @@ These instructions are based on [this video](https://www.youtube.com/watch?v=TY_
 ## 1 - Configure `Windows Terminal`
 - Open up Windows Terminal
 - Go to Settings
+- Click "Open JSON file" in the lower left corner
+- Replace the contents of that file with the contents of [terminal-settings.json](/terminal-settings.json)
+- Save the file
+
+OR
+
+- Follow the steps below to set it up yourself
 
 ### 1.1 - Set PowerShell as the default profile
 - Go to Startup
