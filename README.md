@@ -142,7 +142,7 @@ Set-PSReadLineOption -EditMode Windows
 
 ![image](https://github.com/OscarBennich/windows-terminal-setup-how-to/assets/26872957/4d6092cf-a269-4f37-9553-f1fb20f42f82)
 
-### 5.3 - Updating packages
+## 6 - Updating packages
 - To update the version of your installed packages, run this command:
 
 ```ps1
@@ -166,7 +166,7 @@ Update-Module -Name Terminal-Icons
 Get-InstalledModule
 ```
 
-#### 5.3.1 - Troubleshooting when updating packages
+### 6.1 - Troubleshooting when updating packages
 - Even though the process above 👆 should work for updating packages, you might have to do some troubleshooting if it does not:
   
 1. If you are not able to run the command in WT, then try running it in the normal "Command prompt" instead (`cmd.exe`), potentially starting the program as an administrator if you get any errors related to that
