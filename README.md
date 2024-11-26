@@ -142,6 +142,9 @@ Set-PSReadLineOption -EditMode Windows
 
 ![image](https://github.com/OscarBennich/windows-terminal-setup-how-to/assets/26872957/4d6092cf-a269-4f37-9553-f1fb20f42f82)
 
+- The updated profile file should now look the same as [Microsoft.PowerShell_profile.ps1](/Microsoft.PowerShell_profile.ps1)
+  - Note that this profile file *also* contains a custom `GitPrune` command that you can choose to keep or not
+ 
 ## 6 - Updating packages
 - To update the version of your installed packages, run this command:
 
