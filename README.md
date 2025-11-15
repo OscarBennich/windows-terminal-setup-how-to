@@ -8,21 +8,26 @@
 These instructions are based on [this video](https://www.youtube.com/watch?v=TY_YKz1uvws) but slightly modified and updated.
 
 ## Prerequisites
-- Go to the Microsoft Store (search for "store" in Windows)
-  
-### Install `Windows Terminal`
-- Search for "Windows Terminal"
-- Install
 
-### Install `PowerShell`
-- Search for "PowerShell"
-- Install
-- (_Alternatively you can install it from [here](https://github.com/PowerShell/PowerShell/releases)_)
+> Note that you previously had to install `Windows Terminal` itself, but it is now [included in Windows 11](https://devblogs.microsoft.com/commandline/windows-terminal-is-now-the-default-in-windows-11/). 
+
+### Install `PowerShell 7+`  (i.e. the cross-platform “pwsh”, not the legacy "Windows PowerShell")
+- Run this `winget` command:
+
+  ```
+  winget install --id Microsoft.PowerShell --source winget
+  ```
+- OR go to the Microsoft store and search for "PowerShell" > Install.
+- OR you can install it from [here](https://github.com/PowerShell/PowerShell/releases) ([more info](https://learn.microsoft.com/en-us/powershell/scripting/install/installing-powershell-on-windows?view=powershell-7.5)).
 
 ### Install `Oh My Posh`
-- Search for "Oh My Posh"
-- Install
-- (_Alternatively you can install it from [here](https://ohmyposh.dev/docs/installation/windows)_)
+- Run this `winget` command:
+
+  ```
+  winget install JanDeDobbeleer.OhMyPosh --source winget
+  ```
+- OR go to the Microsoft store and search for "Oh My Posh" > Install.
+- OR you can install it from [here](https://ohmyposh.dev/docs/installation/windows).
 
 ## 1 - Configure `Windows Terminal`
 - Open up Windows Terminal
