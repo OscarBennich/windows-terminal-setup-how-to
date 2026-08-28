@@ -30,6 +30,7 @@ These instructions are based on [this video](https://www.youtube.com/watch?v=TY_
 - OR you can install it from [here](https://ohmyposh.dev/docs/installation/windows).
 
 ## 1 - Configure `Windows Terminal`
+- Follow step 2.1 below to download a font
 - Open up Windows Terminal
 - Go to Settings
 - Click "Open JSON file" in the lower left corner
